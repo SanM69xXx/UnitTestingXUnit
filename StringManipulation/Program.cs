@@ -30,8 +30,7 @@ internal class Program
             Console.WriteLine("9. express a quantity in words");
             Console.WriteLine("10. convert from roman to number");
             Console.WriteLine("11. read text file");
-
-            int optionSelected = int.Parse(Console.ReadLine());
+            ....int optionSelected = int.Parse(Console.ReadLine());
 
             StringOperations stringOperations = new StringOperations(logger);
 
